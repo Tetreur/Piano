@@ -3,7 +3,18 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "main": "./src/main.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "eslint": "^8.32.0",
+    "prettier": "^2.8.3"
+  },
   "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "^3.7.2"
+  },
+  "peerDependencies": {
     "typescript": "^5.2.2"
   }
 }
