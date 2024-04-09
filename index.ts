@@ -1,3 +1,4 @@
 import {z} from 'zod'
+import {$} from 'bun'
 
-console.log("Hello via Bun!");
+console.log("Hello via Bun!")

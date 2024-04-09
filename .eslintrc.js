@@ -26,7 +26,6 @@ module.exports = {
     parserOptions: {
       tsconfigRootDir: __dirname,
       project: ["./tsconfig.json"],
-      project: ["./apps/*/tsconfig.json", "./packages/*/tsconfig.json"],
     },
     rules: {
       // Add custom rules here
@@ -34,7 +33,7 @@ module.exports = {
     },
     overrides: [
       {
-        files: ["*.ts", "*.tsx", "*.cjs", "*.mjs", "*.js"],
+        files: ["*.ts", "*.cjs", "*.mjs", "*.js"],
         extends: ["plugin:@typescript-eslint/recommended"],
         plugins: ["@typescript-eslint"],
         parser: "@typescript-eslint/parser",
