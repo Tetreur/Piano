@@ -1,4 +1,4 @@
-import {z} from 'zod'
-import {$} from 'bun'
+import { z } from 'zod'
 
 console.log("Hello via Bun!")
+z.string().parse("Hello via Zod!")
