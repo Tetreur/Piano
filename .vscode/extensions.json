@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+      "christian-kohler.path-intellisense",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "yoavbls.pretty-ts-errors",
+      "mattpocock.ts-error-translator",
+    ]
+  }
+  

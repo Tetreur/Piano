@@ -1,25 +1,19 @@
 {
-  "editor.codeActionsOnSave": {
-    "source.organizeImports": "explicit",
-    "source.fixAll.eslint": "explicit"
-  },
+	"editor.codeActionsOnSave": {
+		"source.organizeImports": "explicit",
+		"source.fixAll.eslint": "explicit"
+	},
 
-  "eslint.alwaysShowStatus": true,
-  "eslint.workingDirectories": [
-    { "pattern": "apps/*" },
-    { "pattern": "packages/*" }
-  ],
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.formatOnSave": true,
-  "eslint.rules.customizations": [{ "rule": "*", "severity": "warn" }],
-  "[dockerfile]": {
-    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  },
-  "cSpell.words": ["autoload"],
-  "tailwindCSS.experimental.classRegex": [
-    ["classVariants\\(([^)]*)\\)", "[\"'`]([^\"'`]*).*?[\"'`]"]
-  ],
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  }
+	"eslint.alwaysShowStatus": true,
+	"eslint.workingDirectories": [{ "pattern": "/" }],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.comments.ignoreEmptyLines": false,
+	"editor.formatOnSave": true,
+	"eslint.rules.customizations": [
+		{
+			"rule": "*",
+			"severity": "warn"
+		}
+	],
+	"cSpell.words": ["THEO"]
 }
