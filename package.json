@@ -1,20 +1,21 @@
 {
-  "name": "piano",
-  "module": "index.ts",
-  "type": "module",
-  "dependencies": {
-    "@t3-oss/env-core": "^0.9.2",
-    "@types/bun": "latest",
-    "@typescript-eslint/eslint-plugin": "^7.6.0",
-    "@typescript-eslint/parser": "^7.6.0",
-    "eslint": "^9.0.0",
-    "eslint-config-prettier": "^8.6.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "husky": "^9.0.11",
-    "prettier": "^3.2.5",
-    "pretty-quick": "^4.0.0",
-    "puppeteer": "^22.6.3",
-    "typescript": "^5.0.0",
-    "zod": "^3.22.4"
-  }
+	"name": "piano",
+	"module": "index.ts",
+	"type": "module",
+	"dependencies": {
+		"@faker-js/faker": "^8.4.1",
+		"@t3-oss/env-core": "^0.9.2",
+		"@types/bun": "latest",
+		"@typescript-eslint/eslint-plugin": "^7.6.0",
+		"@typescript-eslint/parser": "^7.6.0",
+		"eslint": "^9.0.0",
+		"eslint-config-prettier": "^8.6.0",
+		"eslint-plugin-prettier": "^4.2.1",
+		"husky": "^9.0.11",
+		"prettier": "^3.2.5",
+		"pretty-quick": "^4.0.0",
+		"puppeteer": "^22.6.3",
+		"typescript": "^5.0.0",
+		"zod": "^3.22.4"
+	}
 }
