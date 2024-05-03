@@ -2,7 +2,7 @@ name: 'RESA FAST AS FUCK'
 
 on:
   schedule:
-    - cron: '57 20 * * *'
+    - cron: '1 0 1 1 *'
 
 jobs:
   resaFastAF:
